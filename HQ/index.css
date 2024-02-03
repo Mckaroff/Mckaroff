@@ -1,0 +1,170 @@
+.component1-container {
+  width: 800px;
+  height: 393px;
+  display: flex;
+  position: relative;
+  box-shadow: 1px 1px 10px 0px #1d1919;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: rgba(216, 207, 207, 0.2);
+  border-style: solid;
+  border-width: 0.2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #1e1e1e;
+}
+.component1-container1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component1-text {
+  color: rgb(149, 149, 149);
+  height: 25px;
+  opacity: 0.8;
+  align-self: stretch;
+  text-align: left;
+  margin-left: var(--dl-space-space-unit);
+  border-color: #9e9e9e;
+  border-style: dotted;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-twounits);
+  text-transform: uppercase;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.component1-text1 {
+  color: rgb(149, 149, 149);
+  height: auto;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.component1-root-class-name1 {
+  top: 156px;
+  flex: 1;
+  left: 162px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name {
+  top: 156px;
+  flex: 1;
+  left: 623px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name2 {
+  top: 156px;
+  flex: 1;
+  left: 1073px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name3 {
+  top: 156px;
+  left: 162px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name4 {
+  top: 158px;
+  left: 623px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name5 {
+  top: 160px;
+  left: 1104px;
+  width: 393px;
+  position: absolute;
+}
+.component1-root-class-name6 {
+  top: 155px;
+  flex: 1;
+  right: 82px;
+  width: 393px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .component1-container1 {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    align-self: stretch;
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .component1-text {
+    border-style: solid;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .component1-text1 {
+    color: rgb(149, 149, 149);
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+    text-align: justify;
+  }
+  .component1-root-class-name1 {
+    left: 165px;
+    bottom: 16px;
+  }
+  .component1-root-class-name2 {
+    left: 165px;
+    bottom: 15px;
+  }
+  .component1-root-class-name3 {
+    left: 165px;
+    bottom: 16px;
+  }
+  .component1-root-class-name5 {
+    left: 165px;
+    bottom: 15px;
+  }
+  .component1-root-class-name6 {
+    left: 165px;
+    bottom: 15px;
+  }
+}
+@media(max-width: 1200px) {
+  .component1-root-class-name {
+    right: 482px;
+    bottom: -333px;
+  }
+}
+@media(max-width: 479px) {
+  .component1-root-class-name2 {
+    top: 610px;
+    left: 41px;
+  }
+  .component1-root-class-name6 {
+    top: 610px;
+    left: 41px;
+  }
+}
+
+.home-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: stretch;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
